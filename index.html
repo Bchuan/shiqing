@@ -7,6 +7,7 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/global.css" />
 		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.css"/>
 	</head>
 
 	<body>
@@ -14,7 +15,7 @@
 			<img class="logo" src="images/logo.png" />
 			<a href="#"><img src="images/ipon.png" /></a>
 		</div>
-		<div class="top_ba">
+		<div class="top_ba swiper-container">
 			<div class="section">
 				<a href="#"><img src="images/big_1.png" /></a>
 			</div>
@@ -48,15 +49,18 @@
 				<span>视频专区</span>
 			</div>
 			<div class="_concent1">
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+				<ul style="display: none;">
+					<li><span><a href="#">宝宝拉肚子不要着急，先了解这些知识！</a></span><span>-time-</span></li>
+					<li><span><a href="#">宝宝拉肚子不要着急，先了解这些知识！</a></span><span>-time-</span></li>
+					<li><span><a href="#">宝宝拉肚子不要着急，先了解这些知识！</a></span><span>-time-</span></li>
+					<li><span><a href="#">宝宝拉肚子不要着急，先了解这些知识！</a></span><span>-time-</span></li>
+					<li><span><a href="#">宝宝拉肚子不要着急，先了解这些知识！</a></span><span>-time-</span></li>
+					<li><span><a href="#">宝宝拉肚子不要着急，先了解这些知识！</a></span><span>-time-</span></li>
+					<li><span><a href="#">宝宝拉肚子不要着急，先了解这些知识！</a></span><span>-time-</span></li>
 				</ul>
+				<div class="video">
+					<img src="images/"/>
+				</div>
 			</div>
 		</div>
 		
@@ -91,12 +95,53 @@
 				<li><img src="images/img_08.png"/></li>
 			</ul>
 		</div>
-		<div class="page02">
+		<ul class="page02">
 			<div class="title">
 				<h3>仕罄口碑</h3>
 			</div>
 			<p>public praise</p>
+			<div class="btn">
+				<span>大众点评</span>
+				<span>微信朋友圈</span>
+				<span>新浪微博</span>
+			</div>
+			<p class="text">自2009年始，仕馨月子会所始终立于月子服务前线，历经8年的砥砺前行和经验累积，以饱含赤诚真心的专业姿态，服务了10000多个妈妈科学坐月子，见证她们恢复孕前的健康美丽；凭借经验丰富的科学方式，给予了5000多名宝宝贴心满月呵护，见证他们聪明健康的启航。 这短暂一个月的相伴，带着爱意次第相传，我们听到万千个声音，甚觉欣喜与荣幸，她们说……</p>
+			<ul class="_concent2">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<span>> 点击查看全部</span>
+		</div>
+		
+		<div class="page">
+			<div class="title">
+				<h3>品牌荣耀</h3>
+			</div>
+			<p>Brand honor</p>
+			<ul class="binbox">
+				<li><img src="images/bin_03.png"/><img src="images/bin_02.png"/></li>
+				<li><img src="images/bin_01.png"/><img src="images/bin_07.png"/></li>
+				<li><img src="images/bin_05.png"/><img src="images/bin_06.png"/></li>
+				<li><img src="images/bin_04.png"/></li>
+			</ul>
+		</div>
+		
+		<div class="footer">
+			<div class="scan">
+				<div class="_scan"><img src="images/erw_03.png"/><span>关注官方微信</span></div>
+				<div class="_scan"><img src="images/erw_05.png"/><span>关注官方微博</span></div>
+			</div>
+			<p>Copyright©2011 仕馨月子会所 (粤ICP备17008523号-1)</p>
 		</div>
 	</body>
-
+<!--使用swiper滚动插件-->
+<script src="js/swiper.jquery.js"></script>
+<script type="text/javascript">
+	 var swiper = new Swiper('.swiper-container', {
+        effect: 'flip',
+        grabCursor: true,
+    });
+</script>
 </html>

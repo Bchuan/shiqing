@@ -52,7 +52,7 @@
 }
 .page01 ._concent1 {
   width: auto;
-  height: 200px;
+  height: 205px;
   margin: 10px;
   border: 1px solid black;
 }
@@ -60,38 +60,99 @@
   width: 100%;
 }
 .page01 ._concent1 ul li {
+  margin: 0 15px;
   height: 25px;
-  background: #46B1E4;
   margin-bottom: 5px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.page01 ._concent1 ul li:before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  top: 10px;
+  left: -10px;
+  height: 5px;
+  background: red;
+  border-radius: 50%;
+}
+.page01 ._concent1 ul li span {
+  padding: 0;
+  font-size: 10px;
+  line-height: 25px;
+  color: #808080;
+}
+.page01 ._concent1 ul li span a {
+  color: #808080;
+  text-decoration: none;
+  line-height: 25px;
 }
 .page {
   text-align: center;
+  overflow: hidden;
 }
 .page p {
   font-size: 15px;
   text-align: center;
 }
 .page .lunbo {
+  width: 300%;
   display: flex;
   list-style: none;
   position: relative;
 }
 .page .lunbo li {
   width: auto;
-}
-.page .lunbo li + li {
   margin-left: 5px;
 }
 .page .lunbo li img {
-  width: 150px;
+  width: 100%;
 }
 .page .imgbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style: none;
+}
+.page .imgbox li {
+  width: 47%;
+  margin: 4px;
 }
 .page .imgbox li img {
-  height: 133px;
+  width: 100%;
+}
+.page .imgbox li:nth-child(1) {
+  width: 100%;
+}
+.page .imgbox li:nth-child(8) {
+  width: 100%;
+}
+.page .binbox {
+  width: 100%;
+  list-style: none;
+  padding: 5px;
+}
+.page .binbox li {
+  float: left;
+  width: auto;
+  width: 19.444%;
+}
+.page .binbox li + li {
+  margin-left: 3px;
+}
+.page .binbox li img {
+  display: block;
+  width: 100%;
+}
+.page .binbox li img + img {
+  margin-top: 3px;
+}
+.page .binbox li:nth-child(2) {
+  width: 13.8888%;
+}
+.page .binbox li:nth-child(4) {
+  width: 41.666%;
 }
 .page span {
   margin-top: 5px ;
@@ -104,4 +165,52 @@
 .page02 p {
   font-size: 15px;
   text-align: center;
+}
+.page02 .btn {
+  margin: 10px 0;
+}
+.page02 .btn span {
+  color: white;
+}
+.page02 .btn span + span {
+  margin-left: 10px;
+}
+.page02 .text {
+  text-align: justify;
+}
+.page02 ._concent2 {
+  padding: 10px;
+}
+.page02 ._concent2 li {
+  height: 57px;
+  border: 1px solid #666666;
+  margin-bottom: 10px;
+}
+.page02 span {
+  margin-top: 5px ;
+  font-size: 15px;
+  color: #ed85ad;
+}
+.footer {
+  margin-top: 50px ;
+  height: 220px;
+  width: 100%;
+  background: url(../images/index_bg.jpg) no-repeat;
+  background-position: center;
+}
+.footer .scan {
+  width: auto;
+  display: flex;
+  text-align: center;
+  padding: 20px 50px;
+}
+.footer .scan ._scan img {
+  height: 90px;
+}
+.footer .scan ._scan span {
+  color: #808080;
+}
+.footer p {
+  font-size: 9px;
+  color: #808080;
 }

@@ -1,11 +1,13 @@
 
 html,body,div,ul,li,a,p,h1,h3,span,table,tr{
-	font-family: "Microsoft YaHei";
+	font-family: "微软雅黑";
 	margin: 0;
 	padding: 0;
 }
 
-
+ul{
+	list-style: none;
+}
 h3{
   font-size: 16px;
   font-family: "MicrosoftYaHeiLight";
@@ -15,7 +17,7 @@ h3{
 }
 .title{
 	display: inline-block;
-	min-width:80px ;
+	min-width:70px ;
 	margin: 20px 0 5px 0;
 	position: relative;
 }
@@ -49,14 +51,15 @@ span {
 p{
   font-size: 9px;
   color: rgb( 119, 120, 122 );
-  text-align: left;
+  text-indent: 0rem;
+  padding: 10px;
 }
 
-.page01 .btn {
+.btn {
   margin: 0 auto;
   text-align: center;
 }
-.page01 .btn span {
+.btn > span {
   padding: 5px 10px;
   border-radius: 0 15px;
   background: #74c5be;

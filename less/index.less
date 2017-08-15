@@ -54,9 +54,7 @@
                 img{
                     margin: 5px;
                     height: 30px;
-                    
                 }
-                
             }
         }
     }
@@ -72,16 +70,42 @@
     }
     ._concent1{
         width: auto;
-        height: 200px;
+        height: 205px;
         margin: 10px;
         
         border: 1px solid black;
         ul{
             width: 100%;
             li{
+                margin:0 15px;
                 height: 25px;
-                background: #46B1E4;
+//              background: #46B1E4;
                 margin-bottom: 5px;
+                position: relative;
+                display:flex;
+                justify-content:space-between;  
+                &:before{
+                    content: "";
+                    position: absolute;
+                    width: 5px;
+                    top: 10px;
+                    left: -10px;
+                    height: 5px;
+                    background: red;
+                    border-radius: 50%;
+                }
+                span{
+                    padding: 0;
+                    font-size: 10px;
+                    line-height: 25px;
+                    color: #808080;
+                    a{
+                        color: #808080;
+                        text-decoration: none;
+                        line-height: 25px;
+                }
+                }
+                
             }
         }
     }
@@ -89,23 +113,23 @@
 }
 .page{
     text-align: center;
+    overflow: hidden;
     p{
         font-size: 15px;
         text-align: center;
     }
     .lunbo{
-//      width: 100%;
+        width: 300%;
         display: flex;
         list-style: none;
         position: relative;
         li{
+            
 //          position: absolute;
             width: auto;
-            &+li{
-                margin-left: 5px;
-            }
+            margin-left: 5px;
             img{
-                width: 150px;
+                width: 100%;
             }
         }
         
@@ -114,10 +138,45 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        list-style: none;
         li{
+            width: 47%;
+            margin: 4px;
             img{
-                height: 133px;
+                width: 100%;
             }
+            &:nth-child(1){
+                width: 100%;
+            }
+            &:nth-child(8){
+                width: 100%;
+            }
+        }
+    }
+    .binbox{
+        width: 100%;
+        list-style: none;
+        padding: 5px;
+        li{
+            float: left;
+            width: auto;
+            width: 19.444%;
+            &+li{
+                margin-left: 3px;
+            }
+            img{
+                display: block;
+                width: 100%;
+                &+img{
+                    margin-top: 3px;
+                }
+            }
+            &:nth-child(2){
+                width: 13.8888%;
+            }
+            &:nth-child(4){
+                width: 41.666%;
+             } 
         }
     }
     span{
@@ -131,5 +190,56 @@
     p{
       font-size: 15px;
       text-align: center;    
+    }
+    .btn{
+        margin: 10px 0;
+        span{
+            color: white;
+         &+span{
+             margin-left: 10px;
+         }   
+        }
+    }
+    .text{
+        text-align: justify;
+    }
+    ._concent2{
+        padding: 10px;
+        li{
+            height: 57px;
+            border: 1px solid #666666;
+            margin-bottom: 10px;
+        }
+    }
+    span{
+        margin-top:5px ;
+        font-size: 15px;
+        color:#ed85ad;
+    }
+}
+
+.footer{
+    margin-top:50px ;
+    height: 220px;
+    width: 100%;
+    background: url(../images/index_bg.jpg) no-repeat;
+    background-position: center;
+    .scan{
+        width: auto;
+        display: flex;
+        text-align: center;
+        padding: 20px 50px;
+        ._scan{
+           img{
+               height: 90px;
+           }
+           span{
+               color: #808080;
+           } 
+        }
+    }
+    p{
+        font-size: 9px;
+        color: #808080;
     }
 }
