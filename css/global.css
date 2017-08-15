@@ -1,0 +1,64 @@
+
+html,body,div,ul,li,a,p,h1,h3,span,table,tr{
+	font-family: "Microsoft YaHei";
+	margin: 0;
+	padding: 0;
+}
+
+
+h3{
+  font-size: 16px;
+  font-family: "MicrosoftYaHeiLight";
+  color: rgb( 88, 87, 87 );
+  text-align: center;
+  
+}
+.title{
+	display: inline-block;
+	min-width:80px ;
+	margin: 20px 0 5px 0;
+	position: relative;
+}
+.title:before{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 2px;
+	top: 10px;
+    left: -15px;
+	background: #111111;
+	
+}
+.title:after{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 2px;
+	top: 10px;
+    right: -15px;
+	background: #111111;
+}
+span {
+  display: inline-block;
+  font-size: 12px;
+  color: rgb( 88, 87, 87 );
+  text-transform: uppercase;
+  line-height: 1.125rem;
+  text-align: center;
+}
+p{
+  font-size: 9px;
+  color: rgb( 119, 120, 122 );
+  text-align: left;
+}
+
+.page01 .btn {
+  margin: 0 auto;
+  text-align: center;
+}
+.page01 .btn span {
+  padding: 5px 10px;
+  border-radius: 0 15px;
+  background: #74c5be;
+  color: white;
+}

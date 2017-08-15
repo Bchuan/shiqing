@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		.foot {
+			height: 40px;
+			width: 100%;
+			background: #74c5be;
+			/*overflow: hidden;*/
+			position: fixed;
+			bottom: 0;
+		}
+		
+		.foot>ul {
+			display: flex;
+			margin: 8px 0;
+		}
+		
+		.foot>ul li {
+			flex: 1;
+			text-align: center;
+			font-size: 14px;
+			display: flex;
+			align-items: center;
+			border-right: 1px solid #007FFF;
+		}
+		
+		.foot>ul li:nth-child(3) {
+			border-right: none;
+		}
+		
+		.foot>ul li img {
+			width: 20px;
+			height: 20px;
+			margin: 2px 10px;
+		}
+		
+		.foot>ul li a {
+			color: white;
+			line-height: 24px;
+			text-decoration: none;
+		}
+		
+		.foot>.foot_nav {
+			position: absolute;
+			top: -300px;
+			width: 250px;
+			right: 0;
+			
+		}
+		.foot>.foot_nav ul{
+			display: flex;
+			background: #4DDBFF;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			padding: 10px;
+		}
+		.foot>.foot_nav ul li{
+			width: 30%;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top:10px ;
+			margin-bottom: 10px;
+		}
+		.foot>.foot_nav ul li div{
+			height: 40px;
+			width: 40px;
+			background: #E93A57;
+			border-radius: 50%;
+		}
+		.foot>.foot_nav ul li div img{
+			margin: 5px;
+			height: 30px;
+		}
+		.foot>.foot_nav>div{
+    		width: 0;
+		    height: 0;
+    		border-top: 30px solid #4DDBFF;
+    		border-right: 30px solid transparent;
+    		border-left: 30px solid transparent;
+    		margin-left: 170px;
+		}
+	</style>
+
+	<body>
+		<div class="foot">
+			<ul>
+				<li><img src="images/icon_03.png" />
+					<a href="#">联系电话</a>
+				</li>
+				<li><img src="images/icon_05.png" />
+					<a href="#">预约看店</a>
+				</li>
+				<li><img src="images/icon_07.png" />
+					<a href="#">导航</a>
+				</li>
+			</ul>
+			<div class="foot_nav">
+				<ul>
+					<li><div><img src="images/01_01.png" /></div><span>首页</span></li>
+					<li><div><img src="images/01_02.png" /></div><span>关于仕磬</span></li>
+					<li><div><img src="images/01_03.png" /></div><span>服务体系</span></li>
+					<li><div><img src="images/01_04.png" /></div><span>分店介绍</span></li>
+					<li><div><img src="images/01_05.png" /></div><span>套餐服务</span></li>
+					<li><div><img src="images/01_06.png" /></div><span>妈妈见证</span></li>
+					<li><div><img src="images/01_07.png" /></div><span>月子资讯</span></li>
+					<li><div><img src="images/01_08.png" /></div><span>预约参观</span></li>
+					<li><div><img src="images/01_01.png" /></div><span>关闭</span></li>
+				</ul>
+				<div></div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			
+		</script>
+	</body>
+
+</html>

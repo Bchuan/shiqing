@@ -1,0 +1,107 @@
+.top {
+  width: auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.top .logo {
+  height: 44px;
+  margin-top: 8px;
+}
+.top a img {
+  height: 44px;
+  margin-top: 8px;
+}
+.top_ba .section a img {
+  width: 100%;
+}
+.nav {
+  width: auto;
+}
+.nav ul {
+  width: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav ul li {
+  width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px ;
+  margin-bottom: 10px;
+}
+.nav ul li div {
+  height: 40px;
+  width: 40px;
+  background: #E93A57;
+  border-radius: 50%;
+}
+.nav ul li div img {
+  margin: 5px;
+  height: 30px;
+}
+.page01 .btn span + span {
+  margin-left: 10px;
+}
+.page01 ._concent1 {
+  width: auto;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid black;
+}
+.page01 ._concent1 ul {
+  width: 100%;
+}
+.page01 ._concent1 ul li {
+  height: 25px;
+  background: #46B1E4;
+  margin-bottom: 5px;
+}
+.page {
+  text-align: center;
+}
+.page p {
+  font-size: 15px;
+  text-align: center;
+}
+.page .lunbo {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+.page .lunbo li {
+  width: auto;
+}
+.page .lunbo li + li {
+  margin-left: 5px;
+}
+.page .lunbo li img {
+  width: 150px;
+}
+.page .imgbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.page .imgbox li img {
+  height: 133px;
+}
+.page span {
+  margin-top: 5px ;
+  font-size: 15px;
+  color: #ed85ad;
+}
+.page02 {
+  text-align: center;
+}
+.page02 p {
+  font-size: 15px;
+  text-align: center;
+}

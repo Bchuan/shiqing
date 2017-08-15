@@ -1,0 +1,135 @@
+
+.top{
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 60px;
+    padding: 0 20px;
+    overflow: hidden;
+    .logo{
+        height: 44px;
+        margin-top: 8px;
+    }
+    a{
+        img{
+            height: 44px;
+            margin-top: 8px;
+            
+        }
+    }
+}
+
+.top_ba{
+    .section{
+        a{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.nav{
+    width: auto;
+    ul{
+        width: auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            width: 25%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top:10px ;
+            margin-bottom: 10px;
+            div{
+                height: 40px;
+                width: 40px;
+                background: #E93A57;
+                border-radius: 50%;
+                img{
+                    margin: 5px;
+                    height: 30px;
+                    
+                }
+                
+            }
+        }
+    }
+}
+
+.page01{
+    .btn{
+        span{
+         &+span{
+             margin-left: 10px;
+         }   
+        }
+    }
+    ._concent1{
+        width: auto;
+        height: 200px;
+        margin: 10px;
+        
+        border: 1px solid black;
+        ul{
+            width: 100%;
+            li{
+                height: 25px;
+                background: #46B1E4;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    
+}
+.page{
+    text-align: center;
+    p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .lunbo{
+//      width: 100%;
+        display: flex;
+        list-style: none;
+        position: relative;
+        li{
+//          position: absolute;
+            width: auto;
+            &+li{
+                margin-left: 5px;
+            }
+            img{
+                width: 150px;
+            }
+        }
+        
+    }
+    .imgbox{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            img{
+                height: 133px;
+            }
+        }
+    }
+    span{
+        margin-top:5px ;
+        font-size: 15px;
+        color:#ed85ad;
+    }
+}
+.page02{
+    text-align: center;
+    p{
+      font-size: 15px;
+      text-align: center;    
+    }
+}
